@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+.content {
+  margin: auto;
+}
+.alphabet {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 10px;
+  transform: translateX(-600px);
+  transition: all .3s ease;
+}
+
